@@ -298,6 +298,11 @@ br {
 
 .font-copy-1 {
   padding-top: 5px;
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  overflow: hidden;
+
 }
 
 .fright {
@@ -409,13 +414,7 @@ flex-direction: row;
 }
 
 .hr-2 {
-  color: #f1efef;
-  width: 110%;
-  position: relative;
-  left: -5%;
-  height: 2px;
-  background-color: #f1efef;
-  margin: 15px 0 15px 0;
+  display: none;
 }
 @media (max-width: 1010px) {
   #text {
@@ -522,6 +521,16 @@ height: 30px;
     top: 15px;
   }
 
+  .hr-2 {
+    color: #f1efef;
+    width: 110%;
+    position: relative;
+    left: -5%;
+    height: 2px;
+    background-color: #f1efef;
+    margin: 15px 0 15px 0;
+    display: block;
+  }
  
 }
 @media (max-width: 731px) {
@@ -532,6 +541,7 @@ height: 30px;
     text-align: center;
     height: 1000px;
   }
+
 
 
   .card-border {
