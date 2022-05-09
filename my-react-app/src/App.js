@@ -40,6 +40,7 @@ function App() {
         i++;
       } else {
         alert('Link unsucecs');
+        setTimeout(document.getElementById('text').value = '' , 2000);
       }
 
       if (i === 1) {
